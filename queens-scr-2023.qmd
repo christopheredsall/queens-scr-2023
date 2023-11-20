@@ -1,0 +1,225 @@
+---
+title: "Queens' SCR Talks"
+author: "Christopher Edsall"
+format: 
+    revealjs:
+        slide-number: c
+---
+
+# FLOPS
+
+## Operands and Operations
+
+1 + 1 = ?
+
+## Operands and Operations
+
+1 + 1 = 2
+
+## Operands and Operations
+
+1 + 1 = 2
+
+The 1s are the operands and + is the operation
+
+This calculation is one operation
+
+## Floating Point
+
+1.0 + 1.0 = ?
+
+## Floating Point
+
+1.0 + 1.0 = 2.0
+
+## Floating point ops
+
+1.0 + 1.0 = 2.0
+
+This calculation is one Floating Point operation
+
+If you can do it in one second you can compute at a rate of 1 FLOP/s
+
+## Floating Point
+
+0.1 + 0.2 = ?
+
+## Floating Point
+
+0.1 + 0.2 = 0.30000000000000004
+
+Computer maths != people maths
+
+(And yes it depends on the language / interpreter / precision)
+
+## Flops of some systems
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+| Computer  | FLOPS    |
+|:----------|---------:|
+| EDSAC     |   none   |
+| iPhone 13 |    19 GF |
+| Laptop    |   207 GF |
+| Dawn      | 19.46 PF |
+| Frontier  | 1.194 EF |
+
+: Performance
+
+:::
+
+::: {.column}
+
+| Prefix | Symbol | Multiplier |
+|:-------|:------:|------------|
+| kilo   | k | 1 * 10^3 |
+| mega   | M | 1 * 10^6  |
+| giga   | G | 1 * 10^9  |
+| tera   | T | 1 * 10^12 |
+| peta   | P | 1 * 10^15 |
+| exa    | E | 1 * 10^18 |
+| zetta  | Z | 1 * 10^21 |
+
+:::
+
+::::
+
+## Top500
+
+![](imgs/top500.png)
+
+## Supercomputing Applications
+
+- Traditional
+
+  - Simulating chemical reactions
+  - Simulating nuclear reactions
+  - CFD - Computational Fluid Dynamics
+
+- Also
+
+  - Materials science
+  - Genomics
+  - Astrophysics
+  - Biomechanics (whole organ modelling)
+
+- Basically anything where the performance of a single computer is a bottleneck
+
+# Dawn
+
+## Dawn
+
+![](imgs/dsit-airr.png)
+
+## Dawn
+
+![](imgs/dawn-news.png)
+
+## Dawn
+
+![](imgs/top500-nov23-uk.png)
+
+## Cambridge Open Zettascale 
+
+
+https://zettascale.hpc.cam.ac.uk/
+
+![](imgs/cozl-web.png)
+
+
+🎩
+
+::: {.notes}
+fnord
+:::
+
+## RSE
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](imgs/socrse.png){width=50%}
+
+:::
+
+::: {.column width="50%"}
+![](imgs/BetterSoftwareBetterResearchImage.jpg)
+:::
+
+::::
+
+## ICCS
+
+![](imgs/ICCS.png)
+
+🎩
+
+# Me
+
+## New Zealand
+
+![](imgs/laser-kiwi.svg)
+
+## BBC Model B 
+
+![Simon Inns. CC BY 2.0 DEED](imgs/bbc-model-b.jpg)
+
+## M.Sc. at University of Canterbury
+
+![Radar array at Birdlings Flat. (c) University of Canterbury](imgs/birdlings-flat.jpg)
+
+## M.Sc. at University of Canterbury
+
+![National Water and Climate Center, Public domain, via Wikimedia Commons](imgs/meteor-burst.jpg)
+
+## NIWA
+
+![](imgs/niwa.png)
+
+## NIWA
+
+![](imgs/RV_Tangaroa.jpg)
+
+## Cray T3E
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![(c) Cray](imgs/t3e.png)
+:::
+
+::: {.column width="50%"}
+![Flickr user I Want A Poster. CC BY-NC-SA 2.0 DEED](imgs/pacman.png)
+:::
+
+::::
+
+## NOC
+
+![(c) University of Southampton](imgs/noc.jpg)
+
+## Bristol
+
+![(c) Visit Bristol](imgs/bristol-bridge-baloon.jpeg)
+
+## Here!
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+fnord
+:::
+
+::: {.column width="50%"}
+![Wikimedia user Cmglee. CC BY-SA 3.0 Unported](imgs/math-bridge.jpg)
+:::
+
+::::
+
+✉️: cje57@cam.ac.uk
+🐘: hpcchris@scholar.social
